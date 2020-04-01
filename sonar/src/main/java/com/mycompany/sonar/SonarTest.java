@@ -1,12 +1,14 @@
 package com.mycompany.sonar;
 
-public class SonarTest {
+import java.util.logging.Logger;
 
+public class SonarTest {
+    static final Logger logger = Logger.getLogger(SonarTest.class.getName());
     public static void main(String[] args) {
         SonarTest sonar = new SonarTest();
         sonar.doSomeThing();
         sonar.checkLeapYear(2011);
-        System.out.println("This is how we trigger");
+        logger.info("Right Way");
     }
 
     public void doSomeThing() {
