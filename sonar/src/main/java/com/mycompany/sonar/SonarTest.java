@@ -6,6 +6,7 @@ public class SonarTest {
         SonarTest sonar = new SonarTest();
         sonar.doSomeThing();
         sonar.checkLeapYear(2011);
+        System.out.println("This is how we trigger");
     }
 
     public void doSomeThing() {
